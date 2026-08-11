@@ -1,0 +1,282 @@
+{
+  "users": [
+    {
+      "id": "usr-1",
+      "name": "Admin User",
+      "email": "admin@fundsroom.com",
+      "passwordHash": "$2a$10$ZZSCagzv.nutgt7CZAqZouBC9TfjVuywSlGWoelJ/aKzspHAEVtv6",
+      "role": "Admin"
+    },
+    {
+      "id": "usr-2",
+      "name": "Sales Agent",
+      "email": "sales@fundsroom.com",
+      "passwordHash": "$2a$10$ZZSCagzv.nutgt7CZAqZouBC9TfjVuywSlGWoelJ/aKzspHAEVtv6",
+      "role": "Sales"
+    },
+    {
+      "id": "usr-3",
+      "name": "Warehouse Manager",
+      "email": "warehouse@fundsroom.com",
+      "passwordHash": "$2a$10$ZZSCagzv.nutgt7CZAqZouBC9TfjVuywSlGWoelJ/aKzspHAEVtv6",
+      "role": "Warehouse"
+    },
+    {
+      "id": "usr-4",
+      "name": "Accounts Officer",
+      "email": "accounts@fundsroom.com",
+      "passwordHash": "$2a$10$ZZSCagzv.nutgt7CZAqZouBC9TfjVuywSlGWoelJ/aKzspHAEVtv6",
+      "role": "Accounts"
+    }
+  ],
+  "customers": [
+    {
+      "id": "cust-1786369213856",
+      "customerName": "Rajesh Sharma",
+      "mobile": "+91 9876543210",
+      "email": "rajesh@apexdistributors.com",
+      "businessName": "Apex Distributors Pvt Ltd",
+      "gstNumber": "",
+      "customerType": "Wholesale",
+      "address": "Marketing Yard Road",
+      "status": "Lead",
+      "followUpDate": "2026-08-13",
+      "notes": "",
+      "createdAt": "2026-08-10T13:40:13.856Z",
+      "updatedAt": "2026-08-10T13:40:13.856Z"
+    },
+    {
+      "id": "cust-1786368732613",
+      "customerName": "Rajesh Sharma",
+      "mobile": "+91 9876543210",
+      "email": "rajesh@apexdistributors.com",
+      "businessName": "Apex Distributors Pvt Ltd",
+      "gstNumber": "",
+      "customerType": "Wholesale",
+      "address": "Marketing Yard Road",
+      "status": "Active",
+      "followUpDate": "2026-08-13",
+      "notes": "",
+      "createdAt": "2026-08-10T13:32:12.613Z",
+      "updatedAt": "2026-08-10T13:32:12.613Z"
+    },
+    {
+      "id": "cust-1",
+      "customerName": "Rajesh Sharma",
+      "mobile": "+91 9876543210",
+      "email": "rajesh@apexdistributors.com",
+      "businessName": "Apex Distributors Pvt Ltd",
+      "gstNumber": "27AAAAA0000A1Z5",
+      "customerType": "Distributor",
+      "address": "Plot 42, MIDC Industrial Area, Andheri East, Mumbai, MH - 400093",
+      "status": "Active",
+      "followUpDate": "2026-08-15",
+      "notes": "Key distributor for Western region. High monthly volume.",
+      "createdAt": "2026-08-10T12:45:20.869Z",
+      "updatedAt": "2026-08-10T12:45:20.870Z"
+    },
+    {
+      "id": "cust-2",
+      "customerName": "Priya Patel",
+      "mobile": "+91 9812345678",
+      "email": "priya@swastiktraders.in",
+      "businessName": "Swastik Enterprise",
+      "gstNumber": "24BBBBA1111B2Z2",
+      "customerType": "Wholesale",
+      "address": "Shop 14, Grain Market, SG Highway, Ahmedabad, GJ - 380015",
+      "status": "Active",
+      "followUpDate": "2026-08-12",
+      "notes": "Interested in bulk purchase of electronic components.",
+      "createdAt": "2026-08-10T12:45:20.870Z",
+      "updatedAt": "2026-08-10T12:45:20.870Z"
+    },
+    {
+      "id": "cust-3",
+      "customerName": "Amit Verma",
+      "mobile": "+91 9765432109",
+      "email": "amit@vermaretail.com",
+      "businessName": "Verma Retail Store",
+      "gstNumber": "",
+      "customerType": "Retail",
+      "address": "102 Commercial Complex, Connaught Place, New Delhi - 110001",
+      "status": "Lead",
+      "followUpDate": "2026-08-14",
+      "notes": "New lead received from trade fair. Requested quote for 50 units.",
+      "createdAt": "2026-08-10T12:45:20.870Z",
+      "updatedAt": "2026-08-10T12:45:20.870Z"
+    }
+  ],
+  "customerNotes": [
+    {
+      "id": "cnote-1",
+      "customerId": "cust-1",
+      "note": "Discussion completed regarding Q3 pricing. Agreed on 5% volume discount.",
+      "createdBy": "Sales Agent",
+      "createdAt": "2026-08-10T12:45:20.870Z"
+    },
+    {
+      "id": "cnote-2",
+      "customerId": "cust-3",
+      "note": "Initial phone call. Sent product catalog via email.",
+      "createdBy": "Sales Agent",
+      "createdAt": "2026-08-10T12:45:20.870Z"
+    }
+  ],
+  "products": [
+    {
+      "id": "prod-1",
+      "name": "Industrial Microcontroller Unit (MCU-V2)",
+      "sku": "MCU-IND-001",
+      "category": "Electronics",
+      "unitPrice": 1450,
+      "currentStock": 149,
+      "minStockAlert": 20,
+      "warehouseLocation": "Rack A-12, Wh-1 (Mumbai)",
+      "createdAt": "2026-08-10T12:45:20.870Z",
+      "updatedAt": "2026-08-10T13:41:21.595Z"
+    },
+    {
+      "id": "prod-2",
+      "name": "Heavy Duty Power Adapter 24V 5A",
+      "sku": "PWR-ADP-24V",
+      "category": "Power Supply",
+      "unitPrice": 850,
+      "currentStock": 35,
+      "minStockAlert": 25,
+      "warehouseLocation": "Shelf B-04, Wh-1 (Mumbai)",
+      "createdAt": "2026-08-10T12:45:20.870Z",
+      "updatedAt": "2026-08-10T13:41:02.993Z"
+    },
+    {
+      "id": "prod-3",
+      "name": "Digital Temperature Sensor Modbus",
+      "sku": "SNS-TMP-MOD",
+      "category": "Sensors",
+      "unitPrice": 620,
+      "currentStock": 80,
+      "minStockAlert": 15,
+      "warehouseLocation": "Bin C-09, Wh-2 (Pune)",
+      "createdAt": "2026-08-10T12:45:20.870Z",
+      "updatedAt": "2026-08-10T12:45:20.870Z"
+    },
+    {
+      "id": "prod-4",
+      "name": "Fiber Optic Transceiver Module 10G",
+      "sku": "OPT-TRX-10G",
+      "category": "Networking",
+      "unitPrice": 3200,
+      "currentStock": 45,
+      "minStockAlert": 10,
+      "warehouseLocation": "Rack D-02, Wh-1 (Mumbai)",
+      "createdAt": "2026-08-10T12:45:20.870Z",
+      "updatedAt": "2026-08-10T12:45:20.870Z"
+    }
+  ],
+  "stockLogs": [
+    {
+      "id": "log-1786369281596-1l5q7",
+      "productId": "prod-1",
+      "productName": "Industrial Microcontroller Unit (MCU-V2)",
+      "quantityChanged": 1,
+      "movementType": "OUT",
+      "reason": "Sales Challan Issued (CH-2026-0002)",
+      "createdBy": "Admin User",
+      "createdAt": "2026-08-10T13:41:21.596Z"
+    },
+    {
+      "id": "log-1786369262993-vyzyk",
+      "productId": "prod-2",
+      "productName": "Heavy Duty Power Adapter 24V 5A",
+      "quantityChanged": 20,
+      "movementType": "IN",
+      "reason": "Challan Cancelled Restock (CH-2026-0001)",
+      "createdBy": "Accounts Officer",
+      "createdAt": "2026-08-10T13:41:02.993Z"
+    },
+    {
+      "id": "log-1786369262992-noce9",
+      "productId": "prod-1",
+      "productName": "Industrial Microcontroller Unit (MCU-V2)",
+      "quantityChanged": 30,
+      "movementType": "IN",
+      "reason": "Challan Cancelled Restock (CH-2026-0001)",
+      "createdBy": "Accounts Officer",
+      "createdAt": "2026-08-10T13:41:02.992Z"
+    },
+    {
+      "id": "log-1",
+      "productId": "prod-1",
+      "productName": "Industrial Microcontroller Unit (MCU-V2)",
+      "quantityChanged": 150,
+      "movementType": "IN",
+      "reason": "Initial Inward Shipment from Supplier",
+      "createdBy": "Warehouse Manager",
+      "createdAt": "2026-08-10T12:45:20.870Z"
+    },
+    {
+      "id": "log-2",
+      "productId": "prod-2",
+      "productName": "Heavy Duty Power Adapter 24V 5A",
+      "quantityChanged": 35,
+      "movementType": "IN",
+      "reason": "Stock Inward Purchase Order PO-901",
+      "createdBy": "Warehouse Manager",
+      "createdAt": "2026-08-10T12:45:20.870Z"
+    }
+  ],
+  "challans": [
+    {
+      "id": "ch-1786369281595",
+      "challanNumber": "CH-2026-0002",
+      "customerId": "cust-1786369213856",
+      "customerName": "Apex Distributors Pvt Ltd",
+      "items": [
+        {
+          "productId": "prod-1",
+          "sku": "MCU-IND-001",
+          "name": "Industrial Microcontroller Unit (MCU-V2)",
+          "unitPrice": 1450,
+          "quantity": 1,
+          "total": 1450
+        }
+      ],
+      "totalQuantity": 1,
+      "totalAmount": 1450,
+      "status": "Confirmed",
+      "createdBy": "Admin User",
+      "createdAt": "2026-08-10T13:41:21.595Z",
+      "updatedAt": "2026-08-10T13:41:21.595Z"
+    },
+    {
+      "id": "ch-1",
+      "challanNumber": "CH-2026-0001",
+      "customerId": "cust-1",
+      "customerName": "Apex Distributors Pvt Ltd",
+      "items": [
+        {
+          "productId": "prod-1",
+          "sku": "MCU-IND-001",
+          "name": "Industrial Microcontroller Unit (MCU-V2)",
+          "unitPrice": 1450,
+          "quantity": 30,
+          "total": 43500
+        },
+        {
+          "productId": "prod-2",
+          "sku": "PWR-ADP-24V",
+          "name": "Heavy Duty Power Adapter 24V 5A",
+          "unitPrice": 850,
+          "quantity": 20,
+          "total": 17000
+        }
+      ],
+      "totalQuantity": 50,
+      "totalAmount": 60500,
+      "status": "Cancelled",
+      "createdBy": "Sales Agent",
+      "createdAt": "2026-08-10T12:45:20.870Z",
+      "updatedAt": "2026-08-10T13:41:02.994Z"
+    }
+  ],
+  "challanCounter": 3
+}
